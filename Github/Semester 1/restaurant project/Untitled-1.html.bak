@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOAT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="Untitled-2.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary"> GOAT🐏 </h3>
+            </div>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#restaurant" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#menu1" class="navbar-link">Menu</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#map1" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact1" class="navbar-link">Contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#restaurant" class="navbar-link-book">Book</a>
+                </li>
+            </ul>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="video">
+                <video loop muted autoplay id="video">
+                    <source src="E:\ali elsayed study\PROJECT\video\v.mp4" type="video/mp4">          
+                                  This file type is not supported
+                </video>
+            </div>
+            <div class="header-box">
+                <h1 class="heading-primary">
+                  The Greatest <br> <span id="restaurant">Restaurant</span> <br> Of All Time
+                </h1>
+                <p class="lead">This is our official site for Alex branch!</p>
+                <a href="#" class="book-now" id="book1">Book Now</a> 
+            </div>
+        </div>
+    </section>
+    
+    <section class="menu" id="menu1">
+        <div class="container">
+            <div class="menu-heading">Menu</div>
+            <div class="menu-grid">
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Chicken Pizza</h1>
+                        <p class="menu-p">Put onion slices, red bell pepper slices, and chicken cubes. Add the basil and grated cheese, and place a quantity of pizza on the edges of the dough.</p>
+                        <h3 class="price">23.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img2">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">pasta</h1>
+                        <p class="menu-p">Noodles (very similar to instant noodles or noodles), and are made from different ingredients, such as flour, eggs, water, etc., to be cooked later by boiling them for a short period of time in water..</p>
+                        <h3 class="price">25.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img3">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">Rice</h1>
+                        <p class="menu-p">Rice of all kinds is one of the most important dishes on the Arab table, especially with a plate of cooked legumes next to it. Many of us think that white rice is not useful and it is better to replace it with whole grains, but rice also has many health benefits.</p>
+                        <h3 class="price">22.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img4">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">shawarma</h1>
+                        <p class="menu-p">Shawarma is a type of Middle Eastern food that has its roots in the Levant. It is grilled meat in a special way, where the meat is grilled using heat. Shawarma usually consists of beef, camel, lamb or chicken.</p>
+                        <h3 class="price">30.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img5">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">fish</h1>
+                        <p class="menu-p">Fish is one of the best protein foods. It is a rich source of high-quality protein and low in fat. It is a mine of many vitamins and minerals necessary to maintain the health of the body and prevent it from diseases..</p>
+                        <h3 class="price">26.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img6">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">food1</h1>
+                        <p class="menu-p">This meal contains meat burger, fries and soft drinks.</p>
+                        <h3 class="price">50.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img7">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">beef burger</h1>
+                        <p class="menu-p">A delicious piece of grilled halal beef without any additives or preservatives, with a pinch of salt and pepper, topped with pickles, fresh onions, ketchup and mustard..</p>
+                        <h3 class="price">45.LE</h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img8">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title">soup</h1>
+                        <p class="menu-p">We are excited to bring you this delicious compilation of our best soup recipes & hope this will become your new “look no further list” for cozy weather soups! .</p>
+                        <h3 class="price">15.LE</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact1">
+ <div class="contact-contect">
+     <div class="left">
+         <div class="contact-info">
+             <h1 class="maps title" id="map1"> Find Us on Google Maps </h1>    
+         </div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110471.47950061956!2d31.480477211353804!3d30.087491629582594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458178b2403474d%3A0x19a48a947cdaad38!2sMcDonald&#39;s%20Cairo%20Airport%20Terminal%201!5e0!3m2!1sar!2seg!4v1639336685039!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+         <div class="right">
+             <span><img src="https://raw.githubusercontent.com/diwrrn/Restaurant-web/master/img/food2.png" alt="" class="right-img"></span>
+                <div class="contact-form">
+              <form class="form">
+                  <h1 class="contact-heading">contact us</h1>
+                  <div class="form-group">
+                      <input type="text" class="input" id="name" placeholder="Name..." required>
+                      <label for="name">Name</label>
+                    </div>
+
+                      <div class="form-group">
+                        <input type="email" class="input" id="email" placeholder="email..." required>
+                        <label for="email">Email</label>
+                  </div>
+                  <div class="form-group">
+                   <textarea type="text" class="input textarea" placeholder="message...." required></textarea>
+                   <label for="">Message</label>
+                </div>
+            <a href="#" class="contact-btn">submit</a>
+              </form>      
+                </div>
+         </div>
+ </div>
+</section>
+
+    <section class="review">
+        <h1 class="review-heading">How do our visitors rate us? </h1>
+        <div class="review-content"></div>
+        <div class="review1">
+            <div class="review-logo">
+                &nbsp;
+            </div>
+            <div class="review-info">
+                <h1 class="name">amany elsayed</h1>
+                <h1 class="name">3 Days Ago</h1>              
+            </div>
+        <div class="review-box">
+            <div class="review-star">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+            </div>
+            <div class="review-text">Clean place, delicious food, excellent and fast service. The place is very spacious and well ventilated.</div>
+   
+        </div>
+        </div>
+     </section>
+     <section class="review2">
+        <div class="review2-content"></div>
+        <div class="review3">
+            <div class="review2-logo">
+                &nbsp;
+            </div>
+            <div class="review2-info">
+                <h1 class="name2">hassan ahmed</h1>
+                <h1 class="name2">2 Days Ago</h1>              
+            </div>
+        <div class="review2-box">
+            <div class="review2-star">
+                <span class="fa fa-star checked2"></span>
+                <span class="fa fa-star checked2"></span>
+                <span class="fa fa-star checked2"></span>
+                <span class="fa fa-star checked2"></span>
+                <span class="fa fa-star "></span>
+            </div>
+            <div class="review2-text">A wonderful restaurant suitable for all occasions and a good restaurant whose name is the best proof of that. It is possible that the restaurant will become one of the best restaurants in Egypt and that the pioneers will come to visit it from everywhere.</div>
+        </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+</body>
+</html>

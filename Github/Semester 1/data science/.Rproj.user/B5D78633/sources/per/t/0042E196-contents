@@ -1,0 +1,81 @@
+####Assess and clean your data if needed
+data_set <-read.csv("C:\Users\Ziad\Desktop\data science\Project_1")
+
+###Useadifferent type of Data Visualization tools for each of the following
+
+library(dplyr)
+#Compare cash and credit totals.
+total_by_pay<-group_by(data_set,paymentType)
+total_by_pay<- summarise(total_by_pay,total=total)
+barplot(
+  height = total_by_pay$total,
+  name=total_by_pay$paymentType ,
+  col= "skyblue",
+  main="Compare cash and credit totals",
+  xlab="PaymentType",
+  ylab="Totals"
+)
+
+#Compare each age and sum of total spending.
+total_by_age<-group_by(data_set,age)
+total_by_age<- summarise(total_by_age,sum_total=sum(total))
+total_by_age
+barplot(
+  height = total_by_age$age,
+  name=total_by_age$sum_total ,
+  col= "blue",
+  main="Compare each age and sum of total spending",
+  xlab="totals",
+  ylab="Age"
+)
+
+##Show each city total spending and arrange it by total descending.
+total_by_city<-group_by(data_set,city)
+total_by_city<- summarise(total_by_city,sum_total=sum(total))
+total_by_city_arrange<- arrange(total_by_city,desc(sum_total))
+barplot(
+  height = total_by_city_arrange$sum_total,
+  name=total_by_city_arrange$city ,
+  col= "orange",
+  main="Show each city total spending and arrange it by total descending.",
+  xlab="City",
+  ylab="Total"
+)
+
+###The distribution of total spending
+boxplot(
+  x=data_set$total,
+  xlab="Total",
+  main="The distribution of total spending"
+  )
+par(mfrow=c(2,2))
+barplot(
+  height = total_by_pay$total,
+  name=total_by_pay$paymentType ,
+  col= "skyblue",
+  main="Compare cash and credit totals",
+  xlab="PaymentType",
+  ylab="Totals"
+)
+barplot(
+  height = total_by_age$age,
+  name=total_by_age$sum_total ,
+  col= "blue",
+  main="Compare each age and sum of total spending",
+  xlab="totals",
+  ylab="Age"
+)
+barplot(
+  height = total_by_city_arrange$sum_total,
+  name=total_by_city_arrange$city ,
+  col= "orange",
+  main="Show each city total spending and arrange it by total descending.",
+  xlab="City",
+  ylab="Total"
+)
+boxplot(
+  x=data_set$total,
+  xlab="Total",
+  main="The distribution of total spending"
+)
+  
