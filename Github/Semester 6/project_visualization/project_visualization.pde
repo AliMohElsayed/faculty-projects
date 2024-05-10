@@ -6,8 +6,8 @@ float dataMax = MIN_FLOAT;
 String message = "";   // Declaring an empty string variable to store a message
 
 void setup() {
-  size(430, 463);
-  mapImage = loadImage("egypt.jpg");  // Loading an image named "egypt.jpg"
+  size(470, 350);
+  mapImage = loadImage("EGY.jpg");  // Loading an image named "egypt.jpg"
   data = new Table("data.tsv");      // Loading tabular data from a file named "data.tsv"
   rowCount = data.getRowCount();    // Getting the number of rows in the data table
   
@@ -20,6 +20,8 @@ void setup() {
     if (value < dataMin) {
       dataMin = value;
     }}
+    // Resize the map image to fit the window
+      mapImage.resize(width, height);
   }
     
 void draw() {
